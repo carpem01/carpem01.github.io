@@ -12,4 +12,8 @@ h1 {color: rgb(45,100,220);
 }
 h1 {text-align: center;
 }
-body {background-image: url("paper.gif"); }
+<style>
+body {
+    background-image: url("paper.gif");
+}
+</style>
