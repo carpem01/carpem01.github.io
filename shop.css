@@ -8,3 +8,7 @@ h1 {color: #FFFF00;
 }
 .personal {background-color: #FF3399;
 }
+.snacks {text-decoration: line-through;
+}
+h1,.produce,.snacks,.cleaning,.personal {text-align: center;
+}
