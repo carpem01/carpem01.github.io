@@ -12,7 +12,3 @@ h1 {color: #FFFF00;
 }
 h1,.produce,.snacks,.cleaning,.personal {text-align: center;
 }
-.produce,.snacks,.cleaning,.personal input:checked {
-    height: 50px;
-    width: 50px;
-}
