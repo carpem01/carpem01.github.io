@@ -5,10 +5,19 @@
       position: relative;
       margin: 20px;
     } 
-    section {
+    section#one {
       position: absolute;
       top: 0px
       left: 0px;
+      height: 175px;
+      width: 100px;
+      border: 2px solid black;
+      border-radius: 2px;
+    }
+    section#two {
+         position: absolute;
+      top: 0px
+      left: 100px;
       height: 175px;
       width: 100px;
       border: 2px solid black;
@@ -28,16 +37,16 @@
 </head>
 <body>
 <nav>
-<section class="question">
+<section class="question" id="one">
   <p>favorite christmas song</p>
 </section>
-<section class="answer">
+<section class="answer" id="one">
   <p>silver bells</p>
   </section>
-<section class="question">
+<section class="question" id="two">
   <p>favorite fruit</p>
 </section>
-<section calss="answer">
+<section calss="answer" id="two">
   <p>rasberries</p>
 </section>
 </nav>
