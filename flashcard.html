@@ -48,19 +48,17 @@
 <body>
 <script type= "text/javascript">
   counter = 0
-  updateCounter = function() {
+  updateCounter = function(cbId) {
     counter = counter + 1
     countSpot = document.querySelector('#myCounter');
     countSpot.innerHTML = "Correct: " + counter;
   }
 </script>
-<nav>
-  <input type="checkbox" onclick="updateCounter();">
-</nav>
 <header>
   flashcards
 </header>
-<nav><input type="checkbox">
+<nav>
+<input id="cb1" type="checkbox" onclick="updateCounter(\"cb1\");">
 <section class="answer">
   <p>silver bells</p>
 </section>
@@ -68,7 +66,8 @@
   <p>favorite christmas song?</p>
   </section>
   </nav>
-  <nav><input type="checkbox">
+  <nav>
+  <input id="cb2" type="checkbox" onclick="updateCounter(\"cb2\");">
 <section class="answer">
   <p>rasberries</p>
 </section>
@@ -76,7 +75,8 @@
   <p>favorite fruit?</p>
 </section>
 </nav>
-<nav><input type="checkbox">
+<nav>
+<input id="cb3" type="checkbox" onclick="updateCounter(\"cb3\");">
   <section class="answer">
     <p>paragliding in switzerland</p>
   </section>
@@ -84,5 +84,6 @@
     <p>bucketlist?</p>
   </section>
 </nav>
+<h2 counter
 </body>
 </html>
