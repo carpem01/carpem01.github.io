@@ -3,12 +3,14 @@
 <link rel="stylesheet" href="shop.css" type="text/css">
 <title>grocery list</title>
 </head>
+
+
 <body>
 <button onclick="add()">add</button>
-<input type="text"
+<input type="text" id=word>
 <script type="text/javascript">
 add = function() {
-  t = document.querySelector("#textbox")
+  t = document.querySelector("#word")
   trow = document.createElement("tr")
   td = document.createElecment("td")
   contents = document.createTextNode(add)
@@ -18,11 +20,5 @@ add = function() {
 }
 </script>
 </body>
-  <tr>
-        <th><h1>item</h1></th>
-        <th><h1>quanity</h1></th>
-  </tr>
-    <td>
-   
-    </td>
+
  
