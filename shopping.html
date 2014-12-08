@@ -5,8 +5,20 @@
 </head>
 <body>
 <table width=100%>
-<button>add</button>
-
+<button onclick="add()">add</button>
+<table id="textbox">
+</table>
+<script type="text/javascript">
+add = function() {
+  t = document.querySelector("#textbox")
+  trow = document.createElement("tr")
+  td = document.createElecment("td")
+  contents = document.createTextNode(add)
+  td.appendChild(contents)
+  trow.append(td)
+  t.appendChild(trow)
+}
+</script>
 </body>
   <tr>
         <th><h1>item</h1></th>
