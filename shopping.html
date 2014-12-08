@@ -6,17 +6,21 @@
 
 
 <body>
-<button onclick="add()">add</button>
+<main>
+<ul id="grocerylist">
+</ul>
+</main>
+<button onclick="additem()">add</button>
 <input type="text" id=word>
 <script type="text/javascript">
-add = function() {
-  t = document.querySelector("#word")
-  trow = document.createElement("tr")
-  td = document.createElecment("td")
-  contents = document.createTextNode(add)
-  td.appendChild(contents)
-  trow.append(td)
-  t.appendChild(trow)
+additem = function() {
+  myUL = document.querySelector("#grocerylist");
+  myTextBox = document.querySelector("word");
+  myLi = document.createElecment("li");
+  myGrocery = document.createTextNode("mytextbox.value");
+  myLi.appendChild(grocery)
+  myUL.appendChild(myLi)
+  
 }
 </script>
 
