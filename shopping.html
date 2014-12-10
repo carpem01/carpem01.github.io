@@ -16,7 +16,7 @@
 additem = function() {
   myUL = document.querySelector('#grocerylist');
   myTextBox = document.querySelector('#grocerybox');
-  myLi = document.createElement('li');
+  myLi = document.createElement('li type="checkbox"');
   myGrocery = document.createTextNode(myTextBox.value);
   myLi.appendChild(myGrocery);
   myUL.appendChild(myLi);
