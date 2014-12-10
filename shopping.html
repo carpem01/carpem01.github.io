@@ -19,12 +19,16 @@ additem = function() {
   myLi = document.createElement('li');
   myGrocery = document.createTextNode(myTextBox.value);
   myCb = document.createElement('input');
-  myCb.type = 'checkbox';
+  myCb.type = 'checkbox'
   myLi.appendChild(myCb);
   myLi.appendChild(myGrocery);
   myUL.appendChild(myLi);
   myTextBox.value = "";
- 
+additem = function() {
+  checkme = document.createElement('done')
+  myCb.onclick = checkme;
+  checkme.appendChild()
+}
 }
 </script>
 
