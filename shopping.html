@@ -18,13 +18,13 @@ additem = function() {
   myTextBox = document.querySelector('#grocerybox');
   myLi = document.createElement('li');
   myGrocery = document.createTextNode(myTextBox.value);
+  myCb = document.createElement('input');
+  myCb.type = 'checkbox';
   myLi.appendChild(myCb);
   myLi.appendChild(myGrocery);
   myUL.appendChild(myLi);
   myTextBox.value = "";
-  myCb = document.createElement('input');
-  myCb.type = 'checkbox';
-  
+ 
 }
 </script>
 
