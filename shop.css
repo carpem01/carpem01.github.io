@@ -14,3 +14,5 @@ h1 {text-align: center;
 }
 body { background-image: url("http://2.bp.blogspot.com/-b-vHEOAY7j0/UfXxW2OgzNI/AAAAAAAAFhs/IeTJvHYthE0/s1600/Aisles+of+Groceries.jpg")
       }
+li {list-style-type: none;
+}
