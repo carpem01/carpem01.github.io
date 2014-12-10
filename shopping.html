@@ -18,6 +18,7 @@ additem = function() {
   myTextBox = document.querySelector('#grocerybox');
   myLi = document.createElement('li');
   myGrocery = document.createTextNode(myTextBox.value);
+  myLi.appendChild(myCb);
   myLi.appendChild(myGrocery);
   myUL.appendChild(myLi);
   myTextBox.value = "";
