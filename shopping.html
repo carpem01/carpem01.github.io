@@ -16,12 +16,14 @@
 additem = function() {
   myUL = document.querySelector('#grocerylist');
   myTextBox = document.querySelector('#grocerybox');
-  myLi = document.createElement('li type="checkbox"');
+  myLi = document.createElement('li');
   myGrocery = document.createTextNode(myTextBox.value);
   myLi.appendChild(myGrocery);
   myUL.appendChild(myLi);
   myTextBox.value = "";
-  <input type="checkbox" name="myLI" value="myTextbox.value"><br/>
+  myCb = document.createElement('input');
+  myCb.type = 'checkbox';
+  
 }
 </script>
 
