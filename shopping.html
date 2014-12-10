@@ -12,7 +12,6 @@
 </main>
 <button onclick="additem()">add</button>
 <input type="text" id=grocerybox>
-<input type="checkbox" name="myLI" value="myTextbox.value"><br/>
 <script type="text/javascript">
 additem = function() {
   myUL = document.querySelector('#grocerylist');
@@ -22,6 +21,7 @@ additem = function() {
   myLi.appendChild(myGrocery);
   myUL.appendChild(myLi);
   myTextBox.value = "";
+  <input type="checkbox" name="myLI" value="myTextbox.value"><br/>
 }
 </script>
 
