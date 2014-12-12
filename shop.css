@@ -1,14 +1,14 @@
 h1 {color: rgb(45,100,220);
 }
-fruit {background-color: #33CC66;
+.fruit {background-color: #33CC66;
 }
-snack {background-color: #6666FF;
+.snack {background-color: #6666FF;
 }
-meat {background-color: #3399FF;
+.meat {background-color: #3399FF;
 }
-vegetable {background-color: #FF3399;
+.vegetable {background-color: #FF3399;
 }
-dairy {background-color: #00FFFF;
+.dairy {background-color: #00FFFF;
 }
 h1 {text-align: center;
 }
@@ -16,5 +16,5 @@ body { background-image: url("http://2.bp.blogspot.com/-b-vHEOAY7j0/UfXxW2OgzNI/
       }
 li {list-style-type: none;
 }
-done {text-decoration: line-through;
+.done {text-decoration: line-through;
 }
