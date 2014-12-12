@@ -14,11 +14,13 @@
 <input type="text" id=grocerybox>
 <script type="text/javascript">
 additem = function() {
+  itemClass = document.getElementbuId("priority").value;
   myUL = document.querySelector('#grocerylist');
   myTextBox = document.querySelector('#grocerybox');
   myLi = document.createElement('li');
   myGrocery = document.createTextNode(myTextBox.value);
   myCb = document.createElement('input');
+  myLi.classList.add(itemClass)
   myCb.type = 'checkbox'
   myCb.onclick = checkme;
   myLi.appendChild(myCb);
