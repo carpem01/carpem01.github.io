@@ -2,6 +2,7 @@
 <head>
 <link rel="stylesheet" href="shop.css" type="text/css">
 <title>grocery list</title>
+<script src=""></script>
 </head>
 
 
@@ -43,4 +44,12 @@ checkme = function() {
 
 </body>
 
- 
+localSave("idoflist")
+restoreList("idoflist",donefunction)
+
+</html>
+<script type= "text/javascript">
+</script>
+window.onload= function() {
+restoreList("idoflist",donefunction);
+}
