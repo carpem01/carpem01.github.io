@@ -1,14 +1,14 @@
 h1 {color: rgb(45,100,220);
 }
-.produce {background-color: #33CC66;
+fruit {background-color: #33CC66;
 }
-.snacks {background-color: #6666FF;
+snack {background-color: #6666FF;
 }
-.cleaning {background-color: #3399FF;
+meat {background-color: #3399FF;
 }
-.personal {background-color: #FF3399;
+vegetable {background-color: #FF3399;
 }
-.snacks {text-decoration: line-through;
+dairy {background-color: #00FFFF;
 }
 h1 {text-align: center;
 }
